@@ -184,6 +184,7 @@ TaskPilot-ToDo-App/
 ├── style.css
 ├── script.js
 └── README.md
+```
 
 # 📸 Application Preview
 
