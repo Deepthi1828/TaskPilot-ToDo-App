@@ -5,6 +5,9 @@ TaskPilot is a modern, feature-rich, and fully responsive To-Do List web applica
 Built using **HTML, CSS, and Vanilla JavaScript**, the application focuses on delivering a clean and interactive user experience with modern UI/UX principles, responsive layouts, real-time filtering, progress analytics, dark/light theme support, and local data persistence.
 
 ---
+## 🔗 Live Demo
+[Click Here to View TaskPilot](https://deepthi1828.github.io/TaskPilot-ToDo-App/)
+
 
 # 🌟 Key Features
 
