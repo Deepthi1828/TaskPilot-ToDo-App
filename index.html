@@ -1,0 +1,119 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TaskPilot - Smart To-Do App</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+
+  <div class="top">
+
+    <div class="logo">
+      <i class="fa-solid fa-list-check"></i>
+      <h1>TaskPilot</h1>
+    </div>
+
+    <button class="theme-toggle" id="themeToggle">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+
+  </div>
+
+  <!-- INPUT SECTION -->
+
+  <div class="task-input">
+
+    <input type="text" id="taskInput" placeholder="Enter a task">
+
+    <select id="priority">
+
+      <option value="high">🔴 High</option>
+      <option value="medium">🟡 Medium</option>
+      <option value="low">🟢 Low</option>
+
+    </select>
+
+    <input type="date" id="dueDate">
+
+    <button class="add-btn" onclick="addTask()">
+      Add
+    </button>
+
+  </div>
+
+  <!-- SEARCH -->
+
+  <div class="search-box">
+
+    <input type="text" id="searchInput" placeholder="Search tasks...">
+
+  </div>
+
+  <!-- FILTERS -->
+
+  <div class="filters">
+
+    <button class="filter-btn active" onclick="filterTasks('all')">
+      All
+    </button>
+
+    <button class="filter-btn" onclick="filterTasks('completed')">
+      Completed
+    </button>
+
+    <button class="filter-btn" onclick="filterTasks('pending')">
+      Pending
+    </button>
+
+  </div>
+
+  <!-- TASK LIST -->
+
+  <div class="task-list" id="taskList"></div>
+
+  <!-- PROGRESS -->
+
+  <div class="progress-section">
+
+    <div class="progress-text" id="progressText">
+      Progress : 0%
+    </div>
+
+    <div class="progress-bar">
+
+      <div class="progress" id="progress"></div>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+
+  <div class="footer">
+    Stay focused and never give up 🚀
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
