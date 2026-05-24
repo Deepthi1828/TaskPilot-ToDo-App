@@ -190,11 +190,11 @@ TaskPilot-ToDo-App/
 
 TaskPilot delivers a modern productivity dashboard experience with:
 
-✅ Priority-based task cards
-✅ Real-time progress tracking
-✅ Task filtering & search
-✅ Responsive UI design
-✅ Dark & Light themes
+✅ Priority-based task cards  
+✅ Real-time progress tracking  
+✅ Task filtering & search  
+✅ Responsive UI design  
+✅ Dark & Light themes  
 ✅ Interactive task management
 
 # 👩‍💻 Developed By
